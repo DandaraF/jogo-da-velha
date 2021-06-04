@@ -1,9 +1,37 @@
 @import "./reset.scss";
 @import "./mixins.scss";
 
+body {
+  @include simple-flex();
+  background-color: rgb(181, 185, 185);
+}
 .container {
   @include simple-flex();
-  width: 40rem;
-  height: 40rem;
-  background-color: rgb(182, 18, 18);
+  width: 60rem;
+  height: 60rem;
+  background-color: rgb(16, 18, 49);
+  color: azure;
+  border-radius: 10px;
+
+  .text-principal {
+    font-size: 4rem;
+  }
+  .sub-text {
+    font-size: 2.5rem;
+    padding-bottom: 60px;
+  }
+  .players {
+    @include simple-flex(center, center, row);
+    a {
+      text-decoration: none;
+      font-size: 1.8rem;
+      margin-left: 10px;
+      color: azure;
+      border: 2px solid;
+      padding: 10px;
+    }
+    a:hover {
+      color: rgb(140, 161, 17);
+    }
+  }
 }
