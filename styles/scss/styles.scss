@@ -20,8 +20,9 @@ body {
     font-size: 2.5rem;
     padding-bottom: 60px;
   }
-  .players {
+  .container-players {
     @include simple-flex(center, center, row);
+
     a {
       text-decoration: none;
       font-size: 1.8rem;

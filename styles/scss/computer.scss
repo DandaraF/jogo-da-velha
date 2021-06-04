@@ -1,0 +1,32 @@
+@import "./styles.scss";
+
+.container {
+  @include simple-flex(flex-start);
+  width: 100rem;
+  height: 80rem;
+
+  .text-principal {
+    margin-top: 20px;
+  }
+  img {
+    @include simple-flex();
+    width: 500px;
+    margin-top: 50px;
+  }
+  .container-jogo {
+    @include simple-flex(space-around, center, row);
+    width: 100%;
+    height: 100%;
+    p {
+      font-size: 2.5rem;
+    }
+  }
+  .container-pontos {
+    @include simple-flex(space-around, center, row);
+    height: 100%;
+    width: 100%;
+    p {
+      font-size: 2.5rem;
+    }
+  }
+}

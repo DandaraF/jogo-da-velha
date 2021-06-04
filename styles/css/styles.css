@@ -36,13 +36,13 @@ body {
   font-size: 2.5rem;
   padding-bottom: 60px;
 }
-.container .players {
+.container .container-players {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-.container .players a {
+.container .container-players a {
   text-decoration: none;
   font-size: 1.8rem;
   margin-left: 10px;
@@ -50,7 +50,7 @@ body {
   border: 2px solid;
   padding: 10px;
 }
-.container .players a:hover {
+.container .container-players a:hover {
   color: #8ca111;
 }
 
