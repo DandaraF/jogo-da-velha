@@ -1,0 +1,9 @@
+@import "./reset.scss";
+@import "./mixins.scss";
+
+.container {
+  @include simple-flex();
+  width: 40rem;
+  height: 40rem;
+  background-color: rgb(182, 18, 18);
+}
