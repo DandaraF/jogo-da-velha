@@ -53,5 +53,9 @@ body {
 .container .container-players a:hover {
   color: #8ca111;
 }
+.container .container-players #playerVsComputer {
+  color: #8b8b8b;
+  cursor: not-allowed;
+}
 
 /*# sourceMappingURL=styles.css.map */

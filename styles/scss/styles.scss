@@ -34,5 +34,9 @@ body {
     a:hover {
       color: rgb(140, 161, 17);
     }
+    #playerVsComputer {
+      color: rgb(139, 139, 139);
+      cursor: not-allowed;
+    }
   }
 }
